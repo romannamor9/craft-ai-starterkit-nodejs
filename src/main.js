@@ -1,4 +1,4 @@
-import craftai from 'craft-ai-client-js';
+import craftai from 'craft-ai';
 import loadCfg from './loadCfg';
 
 loadCfg()
