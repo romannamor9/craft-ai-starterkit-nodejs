@@ -18,7 +18,7 @@
     "prestart": "npm run build",
     "start": "node bin/main.js",
     "predev": "npm run build",
-    "dev": "NODE_ENV=development node bin/main.js"
+    "dev": "set NODE_ENV=development && node bin/main.js"
   },
   "dependencies": {
     "craft-ai": "0.0.3",
