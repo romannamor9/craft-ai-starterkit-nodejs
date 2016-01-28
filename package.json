@@ -18,10 +18,11 @@
     "prestart": "npm run build",
     "start": "node bin/main.js",
     "predev": "npm run build",
-    "dev": "NODE_ENV=development node bin/main.js"
+    "dev": "cross-env NODE_ENV=development node bin/main.js"
   },
   "dependencies": {
     "craft-ai": "0.0.3",
+    "cross-env": "1.0.7",
     "lodash": "3.10.1"
   },
   "devDependencies": {
