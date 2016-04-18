@@ -31,7 +31,7 @@
             "type": "action"
           },
           {
-            "activated": true,
+            "activated": false,
             "metadata": {
               "label": ""
             },
@@ -52,6 +52,49 @@
           }
         ],
         "id": "a0ef3783-880b-4a30-8b5b-789981743993",
+        "type": "sequence"
+      },
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "channel": {
+                "type": "string",
+                "value": ""
+              },
+              "inputParams": []
+            },
+            "children": [],
+            "id": "b63097dd-2df0-4642-aedb-28dd24781eee",
+            "type": "sendMessage"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "destination": "",
+              "op": {
+                "type": "string",
+                "value": ""
+              }
+            },
+            "children": [],
+            "id": "a4fbf096-ebf3-4f20-8e26-8dd3ee07a43d",
+            "type": "set"
+          }
+        ],
+        "id": "e6678940-fe27-471f-b458-0a8f542ff379",
         "type": "sequence"
       }
     ],
